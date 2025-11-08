@@ -39,7 +39,9 @@ The system trains on a large text corpus to estimate the probabilities of letter
   - ✅ +2 for each correct letter  
   - 🏆 +50 for completing a word  
   - ❌ -5 for wrong guesses  
-  - ⚠️ -2 for repeated letters  
+  - ⚠️ -2 for repeated letters
+- Evaluation conducted over 2000 simulated Hangman games to measure agent accuracy and convergence.
+
 
 This reward design encourages exploration early on and accuracy later in training.
 
